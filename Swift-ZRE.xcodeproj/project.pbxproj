@@ -1,0 +1,1289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74AEF8251D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		74AEF8261D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		74AEF8271D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		74AEF8281D04C8CE00D8F0F3 /* libCLibvenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* libCLibvenice.dylib */; };
+		74AEF8291D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		74AEF82A1D04C8CE00D8F0F3 /* libCLibvenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* libCLibvenice.dylib */; };
+		74AEF82B1D04C8CE00D8F0F3 /* libPOSIX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* libPOSIX.dylib */; };
+		74AEF82C1D04C8CE00D8F0F3 /* libVenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* libVenice.dylib */; };
+		74AEF82D1D04C8CE00D8F0F3 /* libCLibvenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* libCLibvenice.dylib */; };
+		74AEF82E1D04C8CE00D8F0F3 /* libPOSIX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* libPOSIX.dylib */; };
+		74AEF82F1D04C8CE00D8F0F3 /* libVenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* libVenice.dylib */; };
+		74AEF8301D04C8CE00D8F0F3 /* libIP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_IP" /* libIP.dylib */; };
+		74AEF8311D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		74AEF8321D04C8CE00D8F0F3 /* libCZeroMQ.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CZeroMQ" /* libCZeroMQ.dylib */; };
+		_LinkFileRef_C7 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		_LinkFileRef_CLibvenice /* libCLibvenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibvenice" /* libCLibvenice.dylib */; };
+		_LinkFileRef_CZeroMQ /* libCZeroMQ.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CZeroMQ" /* libCZeroMQ.dylib */; };
+		_LinkFileRef_IP /* libIP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_IP" /* libIP.dylib */; };
+		_LinkFileRef_POSIX /* libPOSIX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIX" /* libPOSIX.dylib */; };
+		_LinkFileRef_UDP /* libUDP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_UDP" /* libUDP.dylib */; };
+		_LinkFileRef_Venice /* libVenice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Venice" /* libVenice.dylib */; };
+		_LinkFileRef_ZeroMQ /* libZeroMQ.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ZeroMQ" /* libZeroMQ.dylib */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncConnection.swift" /* AsyncConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncConnection.swift" /* AsyncConnection.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncHost.swift" /* AsyncHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncHost.swift" /* AsyncHost.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncStream.swift" /* AsyncStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncStream.swift" /* AsyncStream.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/Byte.swift" /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Byte.swift" /* Byte.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/C7.swift" /* C7.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/C7.swift" /* C7.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/Closable.swift" /* Closable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Closable.swift" /* Closable.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/Connection.swift" /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Connection.swift" /* Connection.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/CustomDataStore.swift" /* CustomDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/CustomDataStore.swift" /* CustomDataStore.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/Data.swift" /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Data.swift" /* Data.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/Drain.swift" /* Drain.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Drain.swift" /* Drain.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/Host.swift" /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Host.swift" /* Host.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/Query.swift" /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Query.swift" /* Query.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/QueryField.swift" /* QueryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/QueryField.swift" /* QueryField.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/Stream.swift" /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Stream.swift" /* Stream.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/StreamError.swift" /* StreamError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/StreamError.swift" /* StreamError.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/StreamSequence.swift" /* StreamSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/StreamSequence.swift" /* StreamSequence.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/Time.swift" /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Time.swift" /* Time.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift */; };
+		"__src_cc_ref_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c */; };
+		"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c */; };
+		"__src_cc_ref_Packages/IP-0.5.0/Source/IP.swift" /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/IP-0.5.0/Source/IP.swift" /* IP.swift */; };
+		"__src_cc_ref_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift */; };
+		"__src_cc_ref_Packages/UDP-0.5.0/Source/UDPSocket.swift" /* UDPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/UDP-0.5.0/Source/UDPSocket.swift" /* UDPSocket.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Select/Select.swift" /* Select/Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Select/Select.swift" /* Select/Select.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */; };
+		"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/CZeroMQ/empty.c" /* empty.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/CZeroMQ/empty.c" /* empty.c */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/CURVE.swift" /* CURVE.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/CURVE.swift" /* CURVE.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Context.swift" /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Context.swift" /* Context.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Error.swift" /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Error.swift" /* Error.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Message.swift" /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Message.swift" /* Message.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Poller.swift" /* Poller.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Poller.swift" /* Poller.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Proxy.swift" /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Proxy.swift" /* Proxy.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Socket.swift" /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Socket.swift" /* Socket.swift */; };
+		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74AEF8331D04C8CE00D8F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_C7";
+			remoteInfo = C7;
+		};
+		74AEF8341D04C8CE00D8F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CZeroMQ";
+			remoteInfo = CZeroMQ;
+		};
+		74AEF8351D04C8CE00D8F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CLibvenice";
+			remoteInfo = CLibvenice;
+		};
+		74AEF8361D04C8CE00D8F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_POSIX";
+			remoteInfo = POSIX;
+		};
+		74AEF8371D04C8CE00D8F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Venice";
+			remoteInfo = Venice;
+		};
+		74AEF8381D04C8CE00D8F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_IP";
+			remoteInfo = IP;
+		};
+		74AEF8391D04C8CE00D8F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_UDP";
+			remoteInfo = UDP;
+		};
+		74AEF83A1D04C8CE00D8F0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_ZeroMQ";
+			remoteInfo = ZeroMQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = "/Users/Damiaan/Documents/Projecten/Swift-ZRE/Package.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncConnection.swift" /* AsyncConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncHost.swift" /* AsyncHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncHost.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncStream.swift" /* AsyncStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncURIConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/Byte.swift" /* Byte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/C7.swift" /* C7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C7.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseInsensitiveString.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/Closable.swift" /* Closable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closable.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/Connection.swift" /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/CustomDataStore.swift" /* CustomDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataStore.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/Data.swift" /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/Drain.swift" /* Drain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drain.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/Host.swift" /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/Query.swift" /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/QueryField.swift" /* QueryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryField.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/Stream.swift" /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/StreamError.swift" /* StreamError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamError.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/StreamSequence.swift" /* StreamSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamSequence.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/Time.swift" /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URI.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URIConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chan.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cr.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dns.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ip.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = poller.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = slist.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tcp.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timer.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = udp.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unix.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/IP-0.5.0/Source/IP.swift" /* IP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSIX.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/UDP-0.5.0/Source/UDPSocket.swift" /* UDPSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPSocket.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel/Channel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel/ReceivingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel/SendingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coroutine/Coroutine.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallibleChannel/FallibleChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallibleChannel/FallibleReceivingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallibleChannel/FallibleSendingChannel.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll/Poll.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Select/Select.swift" /* Select/Select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select/Select.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImer/Timer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker/Ticker.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/CZeroMQ/empty.c" /* empty.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = empty.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/CURVE.swift" /* CURVE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURVE.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Context.swift" /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Error.swift" /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Message.swift" /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Poller.swift" /* Poller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poller.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Proxy.swift" /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Socket.swift" /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"_____Product_C7" /* libC7.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libC7.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CLibvenice" /* libCLibvenice.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCLibvenice.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CZeroMQ" /* libCZeroMQ.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCZeroMQ.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_IP" /* libIP.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libIP.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_POSIX" /* libPOSIX.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libPOSIX.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SwiftZRE" /* Swift-ZRE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "Swift-ZRE"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_UDP" /* libUDP.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libUDP.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Venice" /* libVenice.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libVenice.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ZeroMQ" /* libZeroMQ.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libZeroMQ.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_C7" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CLibvenice" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_CZeroMQ" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7 /* libC7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_IP" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				74AEF8271D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */,
+				74AEF8281D04C8CE00D8F0F3 /* libCLibvenice.dylib in Frameworks */,
+				_LinkFileRef_POSIX /* libPOSIX.dylib in Frameworks */,
+				_LinkFileRef_Venice /* libVenice.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_POSIX" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SwiftZRE" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				74AEF82D1D04C8CE00D8F0F3 /* libCLibvenice.dylib in Frameworks */,
+				74AEF82E1D04C8CE00D8F0F3 /* libPOSIX.dylib in Frameworks */,
+				74AEF82F1D04C8CE00D8F0F3 /* libVenice.dylib in Frameworks */,
+				74AEF8301D04C8CE00D8F0F3 /* libIP.dylib in Frameworks */,
+				74AEF8311D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */,
+				_LinkFileRef_UDP /* libUDP.dylib in Frameworks */,
+				74AEF8321D04C8CE00D8F0F3 /* libCZeroMQ.dylib in Frameworks */,
+				_LinkFileRef_ZeroMQ /* libZeroMQ.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_UDP" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				74AEF8291D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */,
+				74AEF82A1D04C8CE00D8F0F3 /* libCLibvenice.dylib in Frameworks */,
+				74AEF82B1D04C8CE00D8F0F3 /* libPOSIX.dylib in Frameworks */,
+				74AEF82C1D04C8CE00D8F0F3 /* libVenice.dylib in Frameworks */,
+				_LinkFileRef_IP /* libIP.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Venice" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				74AEF8261D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */,
+				_LinkFileRef_CLibvenice /* libCLibvenice.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_ZeroMQ" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				74AEF8251D04C8CE00D8F0F3 /* libC7.dylib in Frameworks */,
+				_LinkFileRef_CZeroMQ /* libCZeroMQ.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_C7" /* C7 */,
+				"_______Group_CZeroMQ" /* CZeroMQ */,
+				"_______Group_ZeroMQ" /* ZeroMQ */,
+				"_______Group_CLibvenice" /* CLibvenice */,
+				"_______Group_Venice" /* Venice */,
+				"_______Group_POSIX" /* POSIX */,
+				"_______Group_IP" /* IP */,
+				"_______Group_UDP" /* UDP */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"_______Tests_" /* Tests */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_C7" /* libC7.dylib */,
+				"_____Product_CZeroMQ" /* libCZeroMQ.dylib */,
+				"_____Product_ZeroMQ" /* libZeroMQ.dylib */,
+				"_____Product_CLibvenice" /* libCLibvenice.dylib */,
+				"_____Product_Venice" /* libVenice.dylib */,
+				"_____Product_POSIX" /* libPOSIX.dylib */,
+				"_____Product_IP" /* libIP.dylib */,
+				"_____Product_UDP" /* libUDP.dylib */,
+				"_____Product_SwiftZRE" /* Swift-ZRE */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_SwiftZRE" /* Swift-ZRE */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_C7" /* C7 */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncConnection.swift" /* AsyncConnection.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncHost.swift" /* AsyncHost.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncStream.swift" /* AsyncStream.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/Byte.swift" /* Byte.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/C7.swift" /* C7.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/Closable.swift" /* Closable.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/Connection.swift" /* Connection.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/CustomDataStore.swift" /* CustomDataStore.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/Data.swift" /* Data.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/Drain.swift" /* Drain.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/Host.swift" /* Host.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/Query.swift" /* Query.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/QueryField.swift" /* QueryField.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/Stream.swift" /* Stream.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/StreamError.swift" /* StreamError.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/StreamSequence.swift" /* StreamSequence.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/Time.swift" /* Time.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift */,
+				"__PBXFileRef_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift */,
+			);
+			name = C7;
+			path = "Packages/C7-0.5.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_CLibvenice" /* CLibvenice */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c */,
+				"__PBXFileRef_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c */,
+			);
+			name = CLibvenice;
+			path = "Packages/CLibvenice-0.5.1/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_CZeroMQ" /* CZeroMQ */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/CZeroMQ/empty.c" /* empty.c */,
+			);
+			name = CZeroMQ;
+			path = "Packages/ZeroMQ-0.5.2/Sources/CZeroMQ";
+			sourceTree = "<group>";
+		};
+		"_______Group_IP" /* IP */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/IP-0.5.0/Source/IP.swift" /* IP.swift */,
+			);
+			name = IP;
+			path = "Packages/IP-0.5.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_POSIX" /* POSIX */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift */,
+			);
+			name = POSIX;
+			path = "Packages/POSIX-0.5.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_SwiftZRE" /* Swift-ZRE */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/main.swift /* main.swift */,
+			);
+			name = "Swift-ZRE";
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_UDP" /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/UDP-0.5.0/Source/UDPSocket.swift" /* UDPSocket.swift */,
+			);
+			name = UDP;
+			path = "Packages/UDP-0.5.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_Venice" /* Venice */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Select/Select.swift" /* Select/Select.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift */,
+				"__PBXFileRef_Packages/Venice-0.5.0/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift */,
+			);
+			name = Venice;
+			path = "Packages/Venice-0.5.0/Source/Venice";
+			sourceTree = "<group>";
+		};
+		"_______Group_ZeroMQ" /* ZeroMQ */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Context.swift" /* Context.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/CURVE.swift" /* CURVE.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Error.swift" /* Error.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Message.swift" /* Message.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Poller.swift" /* Poller.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Proxy.swift" /* Proxy.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Socket.swift" /* Socket.swift */,
+			);
+			name = ZeroMQ;
+			path = "Packages/ZeroMQ-0.5.2/Sources/ZeroMQ";
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_C7" /* C7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_C7" /* Build configuration list for PBXNativeTarget "C7" */;
+			buildPhases = (
+				CompilePhase_C7 /* Sources */,
+				"___LinkPhase_C7" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C7;
+			productName = C7;
+			productReference = "_____Product_C7" /* libC7.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_CLibvenice" /* CLibvenice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CLibvenice" /* Build configuration list for PBXNativeTarget "CLibvenice" */;
+			buildPhases = (
+				CompilePhase_CLibvenice /* Sources */,
+				"___LinkPhase_CLibvenice" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLibvenice;
+			productName = CLibvenice;
+			productReference = "_____Product_CLibvenice" /* libCLibvenice.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_CZeroMQ" /* CZeroMQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CZeroMQ" /* Build configuration list for PBXNativeTarget "CZeroMQ" */;
+			buildPhases = (
+				CompilePhase_CZeroMQ /* Sources */,
+				"___LinkPhase_CZeroMQ" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+			);
+			name = CZeroMQ;
+			productName = CZeroMQ;
+			productReference = "_____Product_CZeroMQ" /* libCZeroMQ.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_IP" /* IP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_IP" /* Build configuration list for PBXNativeTarget "IP" */;
+			buildPhases = (
+				CompilePhase_IP /* Sources */,
+				"___LinkPhase_IP" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+			);
+			name = IP;
+			productName = IP;
+			productReference = "_____Product_IP" /* libIP.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_POSIX" /* POSIX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_POSIX" /* Build configuration list for PBXNativeTarget "POSIX" */;
+			buildPhases = (
+				CompilePhase_POSIX /* Sources */,
+				"___LinkPhase_POSIX" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSIX;
+			productName = POSIX;
+			productReference = "_____Product_POSIX" /* libPOSIX.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_SwiftZRE" /* Swift-ZRE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SwiftZRE" /* Build configuration list for PBXNativeTarget "Swift-ZRE" */;
+			buildPhases = (
+				CompilePhase_SwiftZRE /* Sources */,
+				"___LinkPhase_SwiftZRE" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+				__Dependency_IP /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_UDP /* PBXTargetDependency */,
+				__Dependency_CZeroMQ /* PBXTargetDependency */,
+				__Dependency_ZeroMQ /* PBXTargetDependency */,
+			);
+			name = "Swift-ZRE";
+			productName = SwiftZRE;
+			productReference = "_____Product_SwiftZRE" /* Swift-ZRE */;
+			productType = "com.apple.product-type.tool";
+		};
+		"______Target_UDP" /* UDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_UDP" /* Build configuration list for PBXNativeTarget "UDP" */;
+			buildPhases = (
+				CompilePhase_UDP /* Sources */,
+				"___LinkPhase_UDP" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+				__Dependency_POSIX /* PBXTargetDependency */,
+				__Dependency_Venice /* PBXTargetDependency */,
+				__Dependency_IP /* PBXTargetDependency */,
+			);
+			name = UDP;
+			productName = UDP;
+			productReference = "_____Product_UDP" /* libUDP.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_Venice" /* Venice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Venice" /* Build configuration list for PBXNativeTarget "Venice" */;
+			buildPhases = (
+				CompilePhase_Venice /* Sources */,
+				"___LinkPhase_Venice" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CLibvenice /* PBXTargetDependency */,
+			);
+			name = Venice;
+			productName = Venice;
+			productReference = "_____Product_Venice" /* libVenice.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_ZeroMQ" /* ZeroMQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ZeroMQ" /* Build configuration list for PBXNativeTarget "ZeroMQ" */;
+			buildPhases = (
+				CompilePhase_ZeroMQ /* Sources */,
+				"___LinkPhase_ZeroMQ" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CZeroMQ /* PBXTargetDependency */,
+			);
+			name = ZeroMQ;
+			productName = ZeroMQ;
+			productReference = "_____Product_ZeroMQ" /* libZeroMQ.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "Swift-ZRE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_C7" /* C7 */,
+				"______Target_CZeroMQ" /* CZeroMQ */,
+				"______Target_ZeroMQ" /* ZeroMQ */,
+				"______Target_CLibvenice" /* CLibvenice */,
+				"______Target_Venice" /* Venice */,
+				"______Target_POSIX" /* POSIX */,
+				"______Target_IP" /* IP */,
+				"______Target_UDP" /* UDP */,
+				"______Target_SwiftZRE" /* Swift-ZRE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncConnection.swift" /* AsyncConnection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncHost.swift" /* AsyncHost.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncStream.swift" /* AsyncStream.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/Byte.swift" /* Byte.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/C7.swift" /* C7.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/Closable.swift" /* Closable.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/Connection.swift" /* Connection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/CustomDataStore.swift" /* CustomDataStore.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/Data.swift" /* Data.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/Drain.swift" /* Drain.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/Host.swift" /* Host.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/Query.swift" /* Query.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/QueryField.swift" /* QueryField.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/Stream.swift" /* Stream.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/StreamError.swift" /* StreamError.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/StreamSequence.swift" /* StreamSequence.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/Time.swift" /* Time.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CLibvenice /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/chan.c" /* chan.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/cr.c" /* cr.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/debug.c" /* debug.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/dns.c" /* dns.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/file.c" /* file.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/ip.c" /* ip.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/list.c" /* list.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/poller.c" /* poller.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/slist.c" /* slist.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/stack.c" /* stack.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/tcp.c" /* tcp.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/timer.c" /* timer.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/udp.c" /* udp.c in Sources */,
+				"__src_cc_ref_Packages/CLibvenice-0.5.1/Sources/unix.c" /* unix.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_CZeroMQ /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/CZeroMQ/empty.c" /* empty.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_IP /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/IP-0.5.0/Source/IP.swift" /* IP.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_POSIX /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/POSIX-0.5.0/Sources/POSIX.swift" /* POSIX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SwiftZRE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_UDP /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/UDP-0.5.0/Source/UDPSocket.swift" /* UDPSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Venice /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Channel/Channel.swift" /* Channel/Channel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Channel/ReceivingChannel.swift" /* Channel/ReceivingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Channel/SendingChannel.swift" /* Channel/SendingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Coroutine/Coroutine.swift" /* Coroutine/Coroutine.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleChannel.swift" /* FallibleChannel/FallibleChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleReceivingChannel.swift" /* FallibleChannel/FallibleReceivingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/FallibleChannel/FallibleSendingChannel.swift" /* FallibleChannel/FallibleSendingChannel.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Poll/Poll.swift" /* Poll/Poll.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Select/Select.swift" /* Select/Select.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/Ticker/Ticker.swift" /* Ticker/Ticker.swift in Sources */,
+				"__src_cc_ref_Packages/Venice-0.5.0/Source/Venice/TImer/Timer.swift" /* TImer/Timer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_ZeroMQ /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Context.swift" /* Context.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/CURVE.swift" /* CURVE.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Error.swift" /* Error.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Message.swift" /* Message.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Poller.swift" /* Poller.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Proxy.swift" /* Proxy.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.2/Sources/ZeroMQ/Socket.swift" /* Socket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_C7" /* C7 */;
+			targetProxy = 74AEF8331D04C8CE00D8F0F3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_CLibvenice /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CLibvenice" /* CLibvenice */;
+			targetProxy = 74AEF8351D04C8CE00D8F0F3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_CZeroMQ /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CZeroMQ" /* CZeroMQ */;
+			targetProxy = 74AEF8341D04C8CE00D8F0F3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_IP /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_IP" /* IP */;
+			targetProxy = 74AEF8381D04C8CE00D8F0F3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_POSIX /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_POSIX" /* POSIX */;
+			targetProxy = 74AEF8361D04C8CE00D8F0F3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_UDP /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_UDP" /* UDP */;
+			targetProxy = 74AEF8391D04C8CE00D8F0F3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Venice /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Venice" /* Venice */;
+			targetProxy = 74AEF8371D04C8CE00D8F0F3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_ZeroMQ /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_ZeroMQ" /* ZeroMQ */;
+			targetProxy = 74AEF83A1D04C8CE00D8F0F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = C7;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_CLibvenice /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CLibvenice;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_CZeroMQ /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CZeroMQ;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_IP /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = IP;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_POSIX /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = POSIX;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_SwiftZRE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/ZeroMQ-0.5.2/Sources/CZeroMQ/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = SwiftZRE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+			};
+			name = Release;
+		};
+		_ReleaseConf_UDP /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = UDP;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Venice /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Venice;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_ZeroMQ /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/ZeroMQ-0.5.2/Sources/CZeroMQ/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = ZeroMQ;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		"___DebugConf_C7" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = C7;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_CLibvenice" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CLibvenice;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_CZeroMQ" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CZeroMQ;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_IP" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = IP;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_POSIX" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = POSIX;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SwiftZRE" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/CLibvenice-0.5.1/Sources/include",
+					"/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/ZeroMQ-0.5.2/Sources/CZeroMQ/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = SwiftZRE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_UDP" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = UDP;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Venice" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/CLibvenice-0.5.1/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Venice;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_ZeroMQ" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/Damiaan/Documents/Projecten/Swift-ZRE/Packages/ZeroMQ-0.5.2/Sources/CZeroMQ/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "-I/usr/local/include";
+				OTHER_LDFLAGS = "-L/usr/local/lib";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = ZeroMQ;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "Swift-ZRE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_C7" /* Build configuration list for PBXNativeTarget "C7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_C7" /* Debug */,
+				_ReleaseConf_C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CLibvenice" /* Build configuration list for PBXNativeTarget "CLibvenice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CLibvenice" /* Debug */,
+				_ReleaseConf_CLibvenice /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CZeroMQ" /* Build configuration list for PBXNativeTarget "CZeroMQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CZeroMQ" /* Debug */,
+				_ReleaseConf_CZeroMQ /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_IP" /* Build configuration list for PBXNativeTarget "IP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_IP" /* Debug */,
+				_ReleaseConf_IP /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_POSIX" /* Build configuration list for PBXNativeTarget "POSIX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_POSIX" /* Debug */,
+				_ReleaseConf_POSIX /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SwiftZRE" /* Build configuration list for PBXNativeTarget "Swift-ZRE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SwiftZRE" /* Debug */,
+				_ReleaseConf_SwiftZRE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_UDP" /* Build configuration list for PBXNativeTarget "UDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_UDP" /* Debug */,
+				_ReleaseConf_UDP /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Venice" /* Build configuration list for PBXNativeTarget "Venice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Venice" /* Debug */,
+				_ReleaseConf_Venice /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ZeroMQ" /* Build configuration list for PBXNativeTarget "ZeroMQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ZeroMQ" /* Debug */,
+				_ReleaseConf_ZeroMQ /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}

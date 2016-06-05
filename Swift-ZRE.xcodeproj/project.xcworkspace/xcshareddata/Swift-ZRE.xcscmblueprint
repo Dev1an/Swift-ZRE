@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DE95DCABE23B2895FA85878DD1734107A26761DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "704B817219E4CBC31AA92368EF54A4E2835A8C3D" : 0,
+    "DE95DCABE23B2895FA85878DD1734107A26761DD" : 0,
+    "15033DFF73D1DAA84A806DC9B6994613D8A2EB4F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2F7FAE45-2BDC-4BBD-B72A-8B183ABB83E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "704B817219E4CBC31AA92368EF54A4E2835A8C3D" : "Swift-ZRE\/Packages\/POSIX-0.5.0\/",
+    "DE95DCABE23B2895FA85878DD1734107A26761DD" : "Swift-ZRE\/",
+    "15033DFF73D1DAA84A806DC9B6994613D8A2EB4F" : "Swift-ZRE\/Packages\/IP-0.5.0\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Swift-ZRE",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Swift-ZRE.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VeniceX\/IP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15033DFF73D1DAA84A806DC9B6994613D8A2EB4F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/POSIX.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "704B817219E4CBC31AA92368EF54A4E2835A8C3D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dev1an\/Swift-ZRE.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DE95DCABE23B2895FA85878DD1734107A26761DD"
+    }
+  ]
+}
